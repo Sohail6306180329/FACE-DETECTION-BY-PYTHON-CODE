@@ -17,43 +17,6 @@ A real-time face mask detection system built using Python, OpenCV, and a Convolu
 · NumPy (for numerical operations)
 · Matplotlib (for plotting - if used during training)
 
-📁 Project Structure
-
-
-FACE-DETECTION-BY-PYTHON-CODE/
-├── FACE_DETECTION.PY      # Main script to run the real-time detection
-├── mask_detection_model.h5  # Trained CNN model (you might have this)
-├── haarcascade_frontalface_default.xml  # Haar Cascade classifier
-├── README.md              # Project documentation (this file)
-└── training_dataset/      # Directory containing training images (if any)
-    ├── with_mask/
-    └── without_mask/
-
-
-📦 Installation & Setup
-
-Follow these steps to set up the project on your local machine.
-
-1. Clone the Repository
-
-bash
-git clone https://github.com/your-username/FACE-DETECTION-BY-PYTHON-CODE.git
-cd FACE-DETECTION-BY-PYTHON-CODE
-
-
-2. Create a Virtual Environment (Recommended)
-
-bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-
-3. Install Required Dependencies
-
-bash
-pip install opencv-python tensorflow numpy matplotlib
-
-
 🖥 How to Run
 
 1. Ensure you are in the project directory and your virtual environment is activated.
